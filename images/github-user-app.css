@@ -1,0 +1,33 @@
+:root {
+  --lm-bright-blue: #0079ff;
+  --lm-med-gray: #697c9a;
+  --lm-dark-gray-blue: #4b6a9b;
+  --lm-dark-gray: #2b3442;
+  --lm-light-gray: #f6f8ff;
+  --lm-whitish: #fefefe;
+  --dm-bright-blue: #0079ff;
+  --dm-white: #ffffff;
+  --dm-dark-gray: #141d2f;
+  --dm-dark-navy: #1e2a47;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: "Plus Jakarta Sans", sans-serif; */
+  background-color: var(--dm-dark-navy);
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding: 0 16px;
+  margin: 0;
+}
